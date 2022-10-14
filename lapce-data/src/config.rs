@@ -56,12 +56,18 @@ impl LapceTheme {
     pub const INLAY_HINT_FOREGROUND: &'static str = "inlay_hint.foreground";
     pub const INLAY_HINT_BACKGROUND: &'static str = "inlay_hint.background";
 
-    pub const ERROR_LENS_ERROR_FOREGROUND: &'static str = "error_lens.error.foreground";
-    pub const ERROR_LENS_ERROR_BACKGROUND: &'static str = "error_lens.error.background";
-    pub const ERROR_LENS_WARNING_FOREGROUND: &'static str = "error_lens.warning.foreground";
-    pub const ERROR_LENS_WARNING_BACKGROUND: &'static str = "error_lens.warning.background";
-    pub const ERROR_LENS_OTHER_FOREGROUND: &'static str = "error_lens.other.foreground";
-    pub const ERROR_LENS_OTHER_BACKGROUND: &'static str = "error_lens.other.background";
+    pub const ERROR_LENS_ERROR_FOREGROUND: &'static str =
+        "error_lens.error.foreground";
+    pub const ERROR_LENS_ERROR_BACKGROUND: &'static str =
+        "error_lens.error.background";
+    pub const ERROR_LENS_WARNING_FOREGROUND: &'static str =
+        "error_lens.warning.foreground";
+    pub const ERROR_LENS_WARNING_BACKGROUND: &'static str =
+        "error_lens.warning.background";
+    pub const ERROR_LENS_OTHER_FOREGROUND: &'static str =
+        "error_lens.other.foreground";
+    pub const ERROR_LENS_OTHER_BACKGROUND: &'static str =
+        "error_lens.other.background";
 
     pub const SOURCE_CONTROL_ADDED: &'static str = "source_control.added";
     pub const SOURCE_CONTROL_REMOVED: &'static str = "source_control.removed";
