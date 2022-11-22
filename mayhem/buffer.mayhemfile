@@ -1,0 +1,5 @@
+project: lapce
+target: buffer
+
+cmds:
+  - cmd: /fuzzers/fuzz_buffer
